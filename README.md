@@ -14,4 +14,4 @@ You will also see any lint errors in the console.
 
 You can view the live URL of the app here:
 
-### `https://available-increase.surge.sh`
+### `https://cocky-brahmagupta-78f3a3.netlify.com/`
