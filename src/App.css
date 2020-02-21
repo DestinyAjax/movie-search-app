@@ -1,5 +1,13 @@
+body {
+  background-color: #000;
+  color: #ffff;
+  margin: 0;
+}
+
 .App {
   text-align: center;
+  background-color: #000;
+  color: #ffff;
 }
 
 .App-header {
@@ -55,6 +63,19 @@
   max-width: 25%;
 }
 
+.movie h2, .movie p {
+  color: #9DFF51 ;
+}
+
+.movie img {
+  opacity: 0.4;
+}
+
+.movie img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .errorMessage {
   margin: auto;
   font-weight: bold;
@@ -67,23 +88,25 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 
 input[type="submit"] {
-  padding: 5px;
-  background-color: transparent;
-  color: black;
-  border: 1px solid black;
-  width: 80px;
-  margin-left: 5px;
+  padding: 15px;
+  background-color: unset;
+  color: #9DFF51;
+  border: 1px solid #9DFF51;
+  width: auto;
+  margin-left: 15px;
   cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 
 input[type="submit"]:hover {
-  background-color: #282c34;
+  background-color: unset;
   color: antiquewhite;
 }
 
@@ -91,6 +114,9 @@ input[type="submit"]:hover {
 .search > input[type="text"]{
   width: 40%;
   min-width: 170px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px
 }
 
 @media screen and (min-width: 694px) and (max-width: 915px) {
